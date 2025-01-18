@@ -60,11 +60,11 @@ while 1:
 
             # input
             username_input = driver.find_element(By.NAME, "username")
-            username_input.send_keys('202462126309')
+            username_input.send_keys('your_username')  # 将 'your_username' 替换为你的实际密码
 
             password_input = driver.find_element(By.XPATH,
                                                  '//*[@id="login-normal"]/div[2]/form/div[2]/nz-input-group/input')
-            password_input.send_keys('Caiyijie123@@')  # 将 'your_password' 替换为你的实际密码
+            password_input.send_keys('your_password')  # 将 'your_password' 替换为你的实际密码
 
             code_input = driver.find_element(By.XPATH,
                                              '//*[@id="login-normal"]/div[2]/form/app-verification/nz-input-group/input')
@@ -78,6 +78,6 @@ while 1:
             driver.close()
         except:
             time.sleep(30)
-        if Login_try_number >1200:
+        if Login_try_number >100:
             restart_computer()
     # print(Login_try_number)
