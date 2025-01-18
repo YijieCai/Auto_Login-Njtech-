@@ -51,7 +51,11 @@ https://storage.googleapis.com/chrome-for-testing-public/[Chrome_version]/win64/
 
 https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.84/win64/chromedriver-win64.zip
 
-5、检测驱动是否安装成功
+5、下载的压缩包中的chromedrvier文件放入python环境的scripts文件夹中
+
+参考路径：C:\Users\Administrator\AppData\Local\Programs\Python\Python310\Scripts
+
+6、检测驱动是否安装成功
 
 使用02Test Driver.py 顺利打开网页即为成功
 
