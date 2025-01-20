@@ -43,7 +43,7 @@ Win10系统的开机启动文件夹路径为：
 
 https://chromedriver.storage.googleapis.com
 
-[2]或者打开下面网址，即可直接下载对应版本chromeDriver：
+[2]或者打开下面网址，即可直接下载对应版本chromeDriver，在[Chrome_version]中输入版本号：
 
 https://storage.googleapis.com/chrome-for-testing-public/[Chrome_version]/win64/chromedriver-win64.zip
 
@@ -51,7 +51,7 @@ https://storage.googleapis.com/chrome-for-testing-public/[Chrome_version]/win64/
 
 https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.84/win64/chromedriver-win64.zip
 
-5、下载的压缩包中的chromedrvier文件放入python环境的scripts文件夹中
+5、下载的压缩包中的chromedrvier文件放入python环境的Scripts文件夹中
 
 参考路径：C:\Users\Administrator\AppData\Local\Programs\Python\Python310\Scripts
 
