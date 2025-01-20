@@ -79,3 +79,17 @@ https://blog.csdn.net/zhuchengchengct/article/details/124854199
 
 https://www.bilibili.com/video/BV16K6aY8EW3/
 
+## 不知道如何用代码定位'按钮'或'输入窗口'？
+
+在想要定位的页面按下F12，逐行找到你想要确定的模块（鼠标停留在相应的代码块，页面会有颜色标记）
+
+当颜色标记缩小到最小时，右键，找到Copy选项，Copy Xpath。
+
+获得如下格式的信息：//*[@id="login-normal"]/div[2]/form/app-verification/nz-input-group/input
+
+在单引号(必须是单引号，因为信息中存在双引号)中粘贴Xpath信息：Xpath：driver.find_element(By.XPATH,'')
+
+如aim_block=driver.find_element(By.XPATH,'//*[@id="login-normal"]/div[2]/form/app-verification/nz-input-group/input')
+
+
+
